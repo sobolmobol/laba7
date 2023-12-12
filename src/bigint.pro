@@ -1,5 +1,5 @@
 QT += core
-QT -= gui
+QT += gui widgets
 
 CONFIG += c++11
 
@@ -11,7 +11,14 @@ TEMPLATE = app
 
 SOURCES += \
     bigint.cpp\
-    main.cpp
+    form.cpp \
+    main.cpp \
+    mycode.cpp
 
 HEADERS += \
-    bigint.hpp
+    bigint.hpp \
+    form.h \
+    mycode.h
+
+FORMS += \
+    form.ui

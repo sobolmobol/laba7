@@ -14,4 +14,6 @@ HEADERS += \
 
 SOURCES += \
     ../src/bigint.cpp \
-    test_bigint.cpp
+    #test_bigint.cpp \
+    ../src/mycode.cpp \
+    test_mycode.cpp

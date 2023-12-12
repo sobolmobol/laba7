@@ -193,7 +193,7 @@ BigInt BigInt::digitMultiply(unsigned int digit) const{
     unsigned int digitproduct = digits.at(i) * digit + carry;
     if(digitproduct > 9){
       carry = digitproduct / 10;
-      digitproduct %= 10;
+
     }
     else
       carry = 0;
