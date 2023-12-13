@@ -20,6 +20,7 @@ public slots:
 
 private:
     Ui::Form *ui;
+    QString get_result(int index);
 };
 
 #endif // FORM_H

@@ -351,7 +351,9 @@ debug/form.o: ../src/form.cpp ../src/form.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qtouchdevice.h \
-		ui_form.h
+		ui_form.h \
+		../src/mycode.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\form.o ..\src\form.cpp
 
 debug/main.o: ../src/main.cpp C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/QCoreApplication \
@@ -421,21 +423,21 @@ debug/main.o: ../src/main.cpp C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qcontiguouscache.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qsharedpointer.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qsharedpointer_impl.h \
-		../src/bigint.hpp \
-		../src/mycode.h \
-		../src/form.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/QWidget \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/qwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/QApplication \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/qapplication.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/qtwidgetsglobal.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qtguiglobal.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qtgui-config.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/qtwidgets-config.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qwindowdefs.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qsize.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qcursor.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/qdesktopwidget.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/qwidget.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qmargins.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qpaintdevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qrect.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qsize.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qpalette.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qcolor.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qrgb.h \
@@ -455,7 +457,6 @@ debug/main.o: ../src/main.cpp C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qfontmetrics.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qfontinfo.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/qsizepolicy.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qcursor.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qkeysequence.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qevent.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qurl.h \
@@ -463,7 +464,13 @@ debug/main.o: ../src/main.cpp C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qfile.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qvector2d.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qtouchdevice.h
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qtouchdevice.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qguiapplication.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtGui/qinputmethod.h \
+		../src/bigint.hpp \
+		../src/mycode.h \
+		../src/form.h \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_32/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\src\main.cpp
 
 debug/mycode.o: ../src/mycode.cpp ../src/mycode.h
