@@ -6,6 +6,9 @@
 #include <iostream>
 #include "mycode.h"
 #include "form.h"
+#include "../src/mycode.h"
+#include "../../lect4/hellowidget.h"
+#include "../../lect4/recordsfacade.h"
 
 // 0. Положить проект в git, дописать код в form.cpp,
 //       оформить в виде отдельного коммита
@@ -24,6 +27,9 @@ int main(int argc, char *argv[]) {
 
 
   //hello(cin, cout);
+
+  HelloWidget hello;
+  hello.show();
 
   Form f;
   f.show();
