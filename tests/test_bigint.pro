@@ -10,10 +10,12 @@ QT      += testlib
 QT      -= gui
 
 HEADERS += \
-    ../src/bigint.hpp
+    ../src/bigint.hpp \
+    ../../lect4/recordsfacade.h
 
 SOURCES += \
     ../src/bigint.cpp \
     #test_bigint.cpp \
     ../src/mycode.cpp \
-    test_mycode.cpp
+    test_mycode.cpp \
+    ../../lect4/recordsfacade.cpp

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 5.0.2, 2023-12-13T19:31:18. -->
+<!-- Written by QtCreator 5.0.2, 2023-12-20T12:52:46. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -69,7 +69,19 @@
    </valuemap>
    <valuemap type="QVariantMap" key="AutoTest.CheckStates">
     <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:TestMyCode">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacade">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacadeNameEmpty">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacadeNotNumber">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacadeScore100">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacadeScoreAbove100">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacadeScoreEmpty">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacadeScoreUnder100">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacadeScoreUnderZero">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testFacadeScoreZero">Checked</value>
     <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testIvan">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testSymbol">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testVika">Checked</value>
+    <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testVikax">Checked</value>
     <value type="Qt::CheckState" key="1@D:/3kurs/interfaces/lect7/tests/test_mycode.cpp:testWorld">Checked</value>
    </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
